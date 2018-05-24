@@ -1,0 +1,38 @@
+h1 {
+   text-align: center;	
+}
+
+h2 {
+   text-align: center;	
+}
+
+body {
+ 
+	
+}
+
+.temp {
+	
+}
+
+.celcius {
+	text-align: center;
+	margin-left: -500px;
+	border: 10px;
+}
+
+.heit {
+	text-align: center;
+	margin-left: 0px;
+	margin-top: -106px;
+}
+
+.kelvin {
+	text-align: center;
+	margin-left: 500px;
+	margin-top: -106px;
+}
+
+input {
+  text-align: center;
+}  

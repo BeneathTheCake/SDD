@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset<'utf-8'>
+<title>Calculator</title>
+
+<script type='text/javascript' src='conversionTEST.js'></script>
+<link type="text/css" rel="stylesheet" href="conversionTEST.css"/>
+
+</head>
+
+<body>
+<div class = calculator>
+<h1>Conversion Calculator</h1>
+<p>
+<h2>Temperature</h2>
+   <div class = temp>
+    <div class = celcius>
+     <p>   
+       <input id='celciusinput' type='text' placeholder='Celcius'
+       oninput='temperatureConversionfahrenheit(this.value)'
+	   onchange='temperatureConversionfahrenheit(this.value)'>
+	 </p>	
+     <p><strong>Fahrenheit:  </strong><span id='outputFahrenheit'></span></p>
+     <p><strong>Kelvin: </strong><span id='outputKelvin'></span></p>
+	</div>
+	<div class = heit>
+     <p>
+       
+       <input id='fahrenheitinput' type='text' placeholder='Fahrenheit'
+       oninput='temperatureConversioncelcius(this.value)'
+       onchange='temperatureConversioncelcius(this.value)'>
+     </p>
+     <p><strong>Celcius: </strong><span id='outputCelcius'></span></p>
+     <p><strong>Kelvin: </strong><span id='outputKelvin1'></span></p>
+	</div>
+	<div class = kelvin>
+     <p>
+       
+       <input id='kelvininput' type='text' placeholder='Kelvin (Press Enter)'
+       oninput='temperatureConversionckelvin(this.value)'
+       onchange='temperatureConversionkelvin(this.value)'>
+     </p>
+     <p><strong>Celcius:</strong> <span id='outputCelcius1'></span></p>
+     <p><strong>Fahrenheit:</strong> <span id='outputFahrenheit1'></span></p>
+    </div>
+   </div>
+   <h3>Distance</h3>
+   <div class = distance>
+    <div class = kilometers>
+	 <p>
+	  <input id='kilometerinput' type='text' placeholder='Kilometers'
+	  oninput='distanceConversionkilometer(this.value)'
+	  onchange='distanceConversionkilometer(this.value)'>
+	 </p>
+	 <p><strong>Miles:</strong> <span id='outputMiles'></span></p>
+	 <p><strong>Yards:</strong> <span id='outputYards'></span></p>
+	 <p><strong>Feet:</strong> <span id='outputFeet'></span></p>
+	 <p><strong>Inches:</strong> <span id='outputInches'></span></p>
+	</div>
+	<div class = miles>
+	 <p>
+	  <input id='mileinput' type ='text' placeholder ='Miles'
+	  oninput='distanceConversionmile(this.value)'
+	  onchange='distanceConversionmile(this.value)'>
+	 </p>
+	 <p><strong>Kilometers:</strong> <span id='outputKilometers'></span></p>
+	 <p><strong>Meters:</strong> <span id='outputMeters'></span></p>
+	 <p><strong>Centimeters:</strong> <span id='outputCentimeters'></span></p>
+	 <p><strong>Millimeters:</strong> <span id='outputMillimeters'></span></p>
+   </div>
+  </div>
+  <h4>Currency</h4>
+  <div class = currency>
+    <div class = aus>
+      <p>
+	    <input id='ausinput' type='text' placeholder='Australian Dollar'
+		oninput='currencyConversionaus(this.value)'
+		onchange='currencyConversionaus(this.value)'>
+      </p>
+	  <p><strong>CNY: ¥</strong><span id='outputCNY'></span></p>
+	  <p><strong>EUR: £</strong><span id='outputEUR'></span></p>
+      <p><strong>USD: $</strong><span id='outputUSD'></span></p>
+    </div>
+	<div class = cny>
+      <p>
+	    <input id='cnyinput' type='text' placeholder='Chinese Yuan'
+		oninput='currencyConversioncny(this.value)'
+		onchange='currencyConversioncny(this.value)'>
+      </p>
+	  <p><strong>AUS: $</strong><span id='outputAUS'></span></p>
+	  <p><strong>EUR: £</strong><span id='outputEUR1'></span></p>
+      <p><strong>USD: $</strong><span id='outputUSD1'></span></p>
+    </div>
+	<div class = eur>
+      <p>
+	    <input id='eurinput' type='text' placeholder='Euro'
+		oninput='currencyConversioneur(this.value)'
+		onchange='currencyConversioneur(this.value)'>
+      </p>
+	  <p><strong>AUS: $</strong><span id='outputAUS1'></span></p>
+	  <p><strong>CNY: ¥</strong><span id='outputCNY1'></span></p>
+      <p><strong>USD: $</strong><span id='outputUSD2'></span></p>
+    </div>
+	<div class = usd>
+      <p>
+	    <input id='eurinput' type='text' placeholder='US Dollar'
+		oninput='currencyConversionusd(this.value)'
+		onchange='currencyConversionusd(this.value)'>
+      </p>
+	  <p><strong>AUS: $</strong><span id='outputAUS2'></span></p>
+	  <p><strong>CNY: ¥</strong><span id='outputCNY2'></span></p>
+      <p><strong>EUR: £</strong><span id='outputEUR2'></span></p>
+    </div>
+  </div> 
+</div>
+    
+
+
+  

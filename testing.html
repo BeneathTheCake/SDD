@@ -1,0 +1,26 @@
+<html>
+
+    <head>
+        <script language="JavaScript">
+            function tun(form) {
+                var i = parseFloat(form.Cents.value, 10);
+                var o = 0;
+                p = i / 3986.313714
+                o = Math.pow(10, p)
+
+                form.Decimal.value = o;
+            }
+        </script>
+    </head>
+
+    <body>
+        <FORM>Cents:
+            <INPUT NAME="Cents" VALUE="0" MAXLENGTH="15" SIZE=15>
+            <p>Click to Convert
+                <INPUT NAME="calc" VALUE="Calculate" TYPE=BUTTON onClick=tun(this.form)>
+                <p>Decimal:
+                    <INPUT NAME="Decimal" SIZE=15>
+        </FORM>
+    </body>
+
+</html>
